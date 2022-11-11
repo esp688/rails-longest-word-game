@@ -1,0 +1,16 @@
+<div class="container">
+<h1>New Game </h1>
+
+<div class= "letters">
+  <h2><%= @letters %></h2>
+</div>
+
+
+<form action="" method="get" data-turbo="false">
+  <input type="what is the longest word you can find?" name="attempt">
+  <input type="hidden" name="grid" value="<% @grid %>">
+  <input type="hidden" name="time_start" value=" <% @time_start %>">
+  <input type="submit" value="Play">
+</form>
+
+</div>
